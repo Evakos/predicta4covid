@@ -2,6 +2,8 @@ import { createGlobalStyle } from "styled-components"
 
 const GlobalStyle = createGlobalStyle`
 
+
+
   body {
     margin: 0;
     padding: 0;
@@ -42,10 +44,10 @@ h4 {margin-bottom:5px;}
   .row {
     padding: 5rem 0;
     @media (max-width:1440px) {
-      padding 3.5rem 0;
+      padding: 3.5rem 0;
     }
     @media (max-width:1080px) {
-      padding 2.5rem 0;
+      padding: 2.5rem 0;
     }
   }
   
@@ -141,6 +143,8 @@ td {
     font-size: 12px !important;
   }
 }
+
+.modalActive {display:none;}
  
 `
 
